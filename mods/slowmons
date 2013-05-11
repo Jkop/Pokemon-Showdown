@@ -1,0 +1,7 @@
+exports.BattleScripts = {
+init: function() {
+for (var i in this.data.Pokedex) {
+this.data.Pokedex[i].baseStats.spe = 2000 - this.data.Pokedex[i].baseStats.spe;
+}
+}
+};
